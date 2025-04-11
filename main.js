@@ -11,7 +11,7 @@ form.addEventListener("submit", async (e) => {
     const accessKey = "9FSLHlxhEsJlUJbqqNyHpmoHQDel3qkQRDPOVQBdjIA";
 
     const response = await fetch(
-        `https://api.unsplash.com/search/photos?query=${query}&per_page=9&client_id=${accessKey}`
+        `https://api.unsplash.com/search/photos?query=${query}&per_page=20&client_id=${accessKey}`
     );
 
     const data = await response.json();
